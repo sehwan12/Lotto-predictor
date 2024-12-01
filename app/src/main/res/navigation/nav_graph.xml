@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/lottoPickerFragment">
+
+    <fragment
+        android:id="@+id/recentResultsFragment"
+        android:name="com.lotto_predictor.RecentResultsFragment"
+        android:label="최근 로또 결과"
+        tools:layout="@layout/fragment_recent_results" />
+
+    <fragment
+        android:id="@+id/lottoPickerFragment"
+        android:name="com.lotto_predictor.LottoPickerFragment"
+        android:label="로또 번호 뽑기"
+        tools:layout="@layout/fragment_lotto_picker" />
+
+    <fragment
+        android:id="@+id/pickedHistoryFragment"
+        android:name="com.lotto_predictor.PickedHistoryFragment"
+        android:label="번호 뽑은 기록"
+        tools:layout="@layout/fragment_picked_history" />
+
+    <fragment
+        android:id="@+id/userSettingsFragment"
+        android:name="com.lotto_predictor.UserSettingsFragment"
+        android:label="사용자 설정"
+        tools:layout="@layout/fragment_user_settings" />
+</navigation>

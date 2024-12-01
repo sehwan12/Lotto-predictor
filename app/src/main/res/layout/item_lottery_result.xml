@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_draw_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-01-01"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_draw_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1, 2, 3, 4, 5, 6"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_bonus_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="보너스: 7"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lotto_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LottoPickerFragment">
+
+    <!-- 애니메이션을 위한 프레임 레이아웃 -->
+    <FrameLayout
+        android:id="@+id/animation_container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:background="@color/white">
+
+        <!-- 로또 볼 애니메이션 구현 (추후 추가) -->
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_generate_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="번호 뽑기"
+        android:layout_below="@id/animation_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_copy_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_generate_numbers"
+        android:layout_marginTop="-646dp"
+        android:text="클립보드에 저장"
+        android:visibility="gone" />
+
+</RelativeLayout>

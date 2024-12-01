@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recentResultsFragment"
+        android:icon="@drawable/ic_recent_results"
+        android:title="최근 로또 결과" />
+    <item
+        android:id="@+id/lottoPickerFragment"
+        android:icon="@drawable/ic_lotto_picker"
+        android:title="로또 번호 뽑기" />
+    <item
+        android:id="@+id/pickedHistoryFragment"
+        android:icon="@drawable/ic_picked_history"
+        android:title="번호 뽑은 기록" />
+    <item
+        android:id="@+id/userSettingsFragment"
+        android:icon="@drawable/ic_user_settings"
+        android:title="사용자 설정" />
+</menu>
